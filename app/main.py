@@ -3,8 +3,8 @@ from fastapi import FastAPI, Query
 
 app = FastAPI(title="DevSecOps Demo API", version="1.0.0")
 
-# [TEST 1 - GITLEAKS]: Aşağıdaki satırın yorumunu kaldırırsan Gitleaks pipeline'ı anında durdurur.
-# AWS_SECRET_KEY = "AKIAIOSFODNN7EXAMPLEKEY123456"
+[TEST 1 - GITLEAKS]: Aşağıdaki satırın yorumunu kaldırırsan Gitleaks pipeline'ı anında durdurur.
+AWS_SECRET_KEY = "AKIAIOSFODNN7EXAMPLEKEY123456"
 
 @app.get("/health")
 def health_check():
