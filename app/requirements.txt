@@ -1,0 +1,4 @@
+fastapi==0.115.0
+uvicorn==0.30.6
+# [TEST 3 - SCA / TRIVY]: Eski ve kritik CVE barındıran bir paket eklemek istersen aşağıdaki satırı aç:
+# pyyaml==5.3.1
